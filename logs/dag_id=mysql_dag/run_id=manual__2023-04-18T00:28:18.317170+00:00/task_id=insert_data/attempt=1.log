@@ -1,0 +1,87 @@
+[2023-04-18T02:28:25.000+0200] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mysql_dag.insert_data manual__2023-04-18T00:28:18.317170+00:00 [queued]>
+[2023-04-18T02:28:25.011+0200] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mysql_dag.insert_data manual__2023-04-18T00:28:18.317170+00:00 [queued]>
+[2023-04-18T02:28:25.012+0200] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-18T02:28:25.012+0200] {taskinstance.py:1283} INFO - Starting attempt 1 of 1
+[2023-04-18T02:28:25.012+0200] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-18T02:28:25.464+0200] {taskinstance.py:1303} INFO - Executing <Task(PythonOperator): insert_data> on 2023-04-18 00:28:18.317170+00:00
+[2023-04-18T02:28:25.472+0200] {standard_task_runner.py:55} INFO - Started process 10522 to run task
+[2023-04-18T02:28:25.475+0200] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'mysql_dag', 'insert_data', 'manual__2023-04-18T00:28:18.317170+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/new2_dag.py', '--cfg-path', '/tmp/tmp7ypx70b7']
+[2023-04-18T02:28:25.476+0200] {standard_task_runner.py:83} INFO - Job 16: Subtask insert_data
+[2023-04-18T02:28:25.666+0200] {task_command.py:388} INFO - Running <TaskInstance: mysql_dag.insert_data manual__2023-04-18T00:28:18.317170+00:00 [running]> on host namenode
+[2023-04-18T02:28:26.020+0200] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=mysql_dag
+AIRFLOW_CTX_TASK_ID=insert_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-18T00:28:18.317170+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-04-18T00:28:18.317170+00:00
+[2023-04-18T02:28:26.036+0200] {taskinstance.py:1775} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/socket.py", line 914, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/urllib3/connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "/home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f249a03e2b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /wiki/List_of_S%26P_500_companies (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f249a03e2b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/humbulani/airflow/load.py", line 26, in INSERT_INTO_TABLE
+    result = df_to_tuple(http_address)
+  File "/home/humbulani/airflow/new.py", line 147, in df_to_tuple
+    records = Dataframe(http_address).to_records(index=False)
+  File "/home/humbulani/airflow/new.py", line 127, in Dataframe
+    data = Table_Data(http_address)
+  File "/home/humbulani/airflow/new.py", line 86, in Table_Data
+    table = Extract_Table(http_address)
+  File "/home/humbulani/airflow/new.py", line 55, in Extract_Table
+    p = requests.get(http_address)
+  File "/home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /wiki/List_of_S%26P_500_companies (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f249a03e2b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2023-04-18T02:28:26.457+0200] {taskinstance.py:1321} INFO - Marking task as FAILED. dag_id=mysql_dag, task_id=insert_data, execution_date=20230418T002818, start_date=20230418T002825, end_date=20230418T002826
+[2023-04-18T02:28:26.636+0200] {standard_task_runner.py:100} ERROR - Failed to execute job 16 for task insert_data (HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /wiki/List_of_S%26P_500_companies (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f249a03e2b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')); 10522)
+[2023-04-18T02:28:26.649+0200] {local_task_job.py:212} INFO - Task exited with return code 1
+[2023-04-18T02:28:26.750+0200] {taskinstance.py:2585} INFO - 0 downstream tasks scheduled from follow-on schedule check

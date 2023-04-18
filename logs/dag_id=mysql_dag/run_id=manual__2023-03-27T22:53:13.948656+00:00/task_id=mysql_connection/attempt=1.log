@@ -1,0 +1,45 @@
+[2023-03-28T00:53:16.807+0200] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mysql_dag.mysql_connection manual__2023-03-27T22:53:13.948656+00:00 [queued]>
+[2023-03-28T00:53:16.817+0200] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mysql_dag.mysql_connection manual__2023-03-27T22:53:13.948656+00:00 [queued]>
+[2023-03-28T00:53:16.817+0200] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-28T00:53:16.817+0200] {taskinstance.py:1283} INFO - Starting attempt 1 of 1
+[2023-03-28T00:53:16.817+0200] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-28T00:53:16.897+0200] {taskinstance.py:1303} INFO - Executing <Task(MySqlOperator): mysql_connection> on 2023-03-27 22:53:13.948656+00:00
+[2023-03-28T00:53:16.903+0200] {standard_task_runner.py:55} INFO - Started process 25858 to run task
+[2023-03-28T00:53:16.906+0200] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'mysql_dag', 'mysql_connection', 'manual__2023-03-27T22:53:13.948656+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/new2_dag.py', '--cfg-path', '/tmp/tmpfdbz02n5']
+[2023-03-28T00:53:16.908+0200] {standard_task_runner.py:83} INFO - Job 2: Subtask mysql_connection
+[2023-03-28T00:53:17.082+0200] {task_command.py:388} INFO - Running <TaskInstance: mysql_dag.mysql_connection manual__2023-03-27T22:53:13.948656+00:00 [running]> on host namenode
+[2023-03-28T00:53:17.379+0200] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=mysql_dag
+AIRFLOW_CTX_TASK_ID=mysql_connection
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-27T22:53:13.948656+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-27T22:53:13.948656+00:00
+[2023-03-28T00:53:17.380+0200] {sql.py:254} INFO - Executing: CREATE TABLE IF NOT EXISTS securities(Symbol VARCHAR(255),
+                                                      Security VARCHAR(255),
+                                                      SEC_filings VARCHAR(255),
+                                                      GICS_Sector VARCHAR(255),
+                                                      GICS_Sub_Industry VARCHAR(255),
+                                                      Headquaters_Location VARCHAR(255),
+                                                      id INT AUTO_INCREMENT PRIMARY KEY);
+[2023-03-28T00:53:17.408+0200] {taskinstance.py:1775} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 255, in execute
+    hook = self.get_db_hook()
+  File "/home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 179, in get_db_hook
+    return self._hook
+  File "/home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/functools.py", line 966, in __get__
+    val = self.func(instance)
+  File "/home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 141, in _hook
+    conn = BaseHook.get_connection(self.conn_id)
+  File "/home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/hooks/base.py", line 72, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/models/connection.py", line 435, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `mysql_connection` isn't defined
+[2023-03-28T00:53:17.602+0200] {taskinstance.py:1321} INFO - Marking task as FAILED. dag_id=mysql_dag, task_id=mysql_connection, execution_date=20230327T225313, start_date=20230327T225316, end_date=20230327T225317
+[2023-03-28T00:53:17.701+0200] {standard_task_runner.py:100} ERROR - Failed to execute job 2 for task mysql_connection (The conn_id `mysql_connection` isn't defined; 25858)
+[2023-03-28T00:53:17.719+0200] {local_task_job.py:212} INFO - Task exited with return code 1
+[2023-03-28T00:53:17.751+0200] {taskinstance.py:2585} INFO - 0 downstream tasks scheduled from follow-on schedule check

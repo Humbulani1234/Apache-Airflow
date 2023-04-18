@@ -1,0 +1,56 @@
+[2023-04-04T03:21:43.192+0200] {processor.py:153} INFO - Started process (PID=7584) to work on /home/humbulani/airflow/dags/new2_dag.py
+[2023-04-04T03:21:43.192+0200] {processor.py:743} INFO - Processing file /home/humbulani/airflow/dags/new2_dag.py for tasks to queue
+[2023-04-04T03:21:43.193+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:21:43.193+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/airflow/dags/new2_dag.py
+[2023-04-04T03:21:45.075+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:21:45.075+0200] {utils.py:160} INFO - NumExpr defaulting to 4 threads.
+[2023-04-04T03:21:47.282+0200] {processor.py:753} INFO - DAG(s) dict_keys(['mysql_dag']) retrieved from /home/humbulani/airflow/dags/new2_dag.py
+[2023-04-04T03:21:47.300+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:21:47.300+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-04T03:21:47.321+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:21:47.321+0200] {dag.py:3440} INFO - Setting next_dagrun for mysql_dag to None, run_after=None
+[2023-04-04T03:21:47.443+0200] {processor.py:175} INFO - Processing /home/humbulani/airflow/dags/new2_dag.py took 4.258 seconds
+[2023-04-04T03:22:17.730+0200] {processor.py:153} INFO - Started process (PID=7699) to work on /home/humbulani/airflow/dags/new2_dag.py
+[2023-04-04T03:22:17.731+0200] {processor.py:743} INFO - Processing file /home/humbulani/airflow/dags/new2_dag.py for tasks to queue
+[2023-04-04T03:22:17.731+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:22:17.731+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/airflow/dags/new2_dag.py
+[2023-04-04T03:22:17.804+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:22:17.803+0200] {utils.py:160} INFO - NumExpr defaulting to 4 threads.
+[2023-04-04T03:22:18.045+0200] {processor.py:753} INFO - DAG(s) dict_keys(['mysql_dag']) retrieved from /home/humbulani/airflow/dags/new2_dag.py
+[2023-04-04T03:22:18.060+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:22:18.059+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-04T03:22:18.082+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:22:18.082+0200] {dag.py:3440} INFO - Setting next_dagrun for mysql_dag to None, run_after=None
+[2023-04-04T03:22:18.177+0200] {processor.py:175} INFO - Processing /home/humbulani/airflow/dags/new2_dag.py took 0.450 seconds
+[2023-04-04T03:22:48.930+0200] {processor.py:153} INFO - Started process (PID=7722) to work on /home/humbulani/airflow/dags/new2_dag.py
+[2023-04-04T03:22:48.954+0200] {processor.py:743} INFO - Processing file /home/humbulani/airflow/dags/new2_dag.py for tasks to queue
+[2023-04-04T03:22:48.955+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:22:48.955+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/airflow/dags/new2_dag.py
+[2023-04-04T03:22:49.020+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:22:49.020+0200] {utils.py:160} INFO - NumExpr defaulting to 4 threads.
+[2023-04-04T03:22:49.266+0200] {processor.py:753} INFO - DAG(s) dict_keys(['mysql_dag']) retrieved from /home/humbulani/airflow/dags/new2_dag.py
+[2023-04-04T03:22:49.281+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:22:49.280+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-04T03:22:49.303+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:22:49.302+0200] {dag.py:3440} INFO - Setting next_dagrun for mysql_dag to None, run_after=None
+[2023-04-04T03:22:49.414+0200] {processor.py:175} INFO - Processing /home/humbulani/airflow/dags/new2_dag.py took 0.488 seconds
+[2023-04-04T03:23:19.532+0200] {processor.py:153} INFO - Started process (PID=7751) to work on /home/humbulani/airflow/dags/new2_dag.py
+[2023-04-04T03:23:19.533+0200] {processor.py:743} INFO - Processing file /home/humbulani/airflow/dags/new2_dag.py for tasks to queue
+[2023-04-04T03:23:19.534+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:23:19.534+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/airflow/dags/new2_dag.py
+[2023-04-04T03:23:19.613+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:23:19.612+0200] {utils.py:160} INFO - NumExpr defaulting to 4 threads.
+[2023-04-04T03:23:19.881+0200] {processor.py:753} INFO - DAG(s) dict_keys(['mysql_dag']) retrieved from /home/humbulani/airflow/dags/new2_dag.py
+[2023-04-04T03:23:19.896+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:23:19.895+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-04T03:23:19.920+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:23:19.920+0200] {dag.py:3440} INFO - Setting next_dagrun for mysql_dag to None, run_after=None
+[2023-04-04T03:23:20.139+0200] {processor.py:175} INFO - Processing /home/humbulani/airflow/dags/new2_dag.py took 0.610 seconds
+[2023-04-04T03:23:50.647+0200] {processor.py:153} INFO - Started process (PID=7765) to work on /home/humbulani/airflow/dags/new2_dag.py
+[2023-04-04T03:23:50.695+0200] {processor.py:743} INFO - Processing file /home/humbulani/airflow/dags/new2_dag.py for tasks to queue
+[2023-04-04T03:23:50.696+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:23:50.696+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/airflow/dags/new2_dag.py
+[2023-04-04T03:23:50.763+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:23:50.763+0200] {utils.py:160} INFO - NumExpr defaulting to 4 threads.
+[2023-04-04T03:23:51.014+0200] {processor.py:753} INFO - DAG(s) dict_keys(['mysql_dag']) retrieved from /home/humbulani/airflow/dags/new2_dag.py
+[2023-04-04T03:23:51.029+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:23:51.029+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-04T03:23:51.050+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:23:51.050+0200] {dag.py:3440} INFO - Setting next_dagrun for mysql_dag to None, run_after=None
+[2023-04-04T03:23:51.231+0200] {processor.py:175} INFO - Processing /home/humbulani/airflow/dags/new2_dag.py took 0.587 seconds
+[2023-04-04T03:24:21.337+0200] {processor.py:153} INFO - Started process (PID=7784) to work on /home/humbulani/airflow/dags/new2_dag.py
+[2023-04-04T03:24:21.337+0200] {processor.py:743} INFO - Processing file /home/humbulani/airflow/dags/new2_dag.py for tasks to queue
+[2023-04-04T03:24:21.338+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:24:21.338+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/airflow/dags/new2_dag.py
+[2023-04-04T03:24:21.405+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:24:21.405+0200] {utils.py:160} INFO - NumExpr defaulting to 4 threads.
+[2023-04-04T03:24:21.668+0200] {processor.py:753} INFO - DAG(s) dict_keys(['mysql_dag']) retrieved from /home/humbulani/airflow/dags/new2_dag.py
+[2023-04-04T03:24:21.684+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:24:21.683+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-04T03:24:21.706+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:24:21.706+0200] {dag.py:3440} INFO - Setting next_dagrun for mysql_dag to None, run_after=None
+[2023-04-04T03:24:21.848+0200] {processor.py:175} INFO - Processing /home/humbulani/airflow/dags/new2_dag.py took 0.514 seconds
+[2023-04-04T03:24:51.894+0200] {processor.py:153} INFO - Started process (PID=7877) to work on /home/humbulani/airflow/dags/new2_dag.py
+[2023-04-04T03:24:51.913+0200] {processor.py:743} INFO - Processing file /home/humbulani/airflow/dags/new2_dag.py for tasks to queue
+[2023-04-04T03:24:51.913+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:24:51.913+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/airflow/dags/new2_dag.py
+[2023-04-04T03:24:51.978+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:24:51.978+0200] {utils.py:160} INFO - NumExpr defaulting to 4 threads.
+[2023-04-04T03:24:52.204+0200] {processor.py:753} INFO - DAG(s) dict_keys(['mysql_dag']) retrieved from /home/humbulani/airflow/dags/new2_dag.py
+[2023-04-04T03:24:52.218+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:24:52.217+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-04T03:24:52.237+0200] {logging_mixin.py:137} INFO - [2023-04-04T03:24:52.237+0200] {dag.py:3440} INFO - Setting next_dagrun for mysql_dag to None, run_after=None
+[2023-04-04T03:24:52.407+0200] {processor.py:175} INFO - Processing /home/humbulani/airflow/dags/new2_dag.py took 0.516 seconds

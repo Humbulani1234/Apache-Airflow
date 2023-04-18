@@ -1,0 +1,39 @@
+[2023-03-28T00:56:52.791+0200] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mysql_dag.mysql_connection manual__2023-03-27T22:56:49.667397+00:00 [queued]>
+[2023-03-28T00:56:52.802+0200] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mysql_dag.mysql_connection manual__2023-03-27T22:56:49.667397+00:00 [queued]>
+[2023-03-28T00:56:52.803+0200] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-28T00:56:52.803+0200] {taskinstance.py:1283} INFO - Starting attempt 1 of 1
+[2023-03-28T00:56:52.803+0200] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-28T00:56:52.900+0200] {taskinstance.py:1303} INFO - Executing <Task(MySqlOperator): mysql_connection> on 2023-03-27 22:56:49.667397+00:00
+[2023-03-28T00:56:52.905+0200] {standard_task_runner.py:55} INFO - Started process 25960 to run task
+[2023-03-28T00:56:52.908+0200] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'mysql_dag', 'mysql_connection', 'manual__2023-03-27T22:56:49.667397+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/new2_dag.py', '--cfg-path', '/tmp/tmp61a16rto']
+[2023-03-28T00:56:52.909+0200] {standard_task_runner.py:83} INFO - Job 5: Subtask mysql_connection
+[2023-03-28T00:56:53.118+0200] {task_command.py:388} INFO - Running <TaskInstance: mysql_dag.mysql_connection manual__2023-03-27T22:56:49.667397+00:00 [running]> on host namenode
+[2023-03-28T00:56:53.448+0200] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=mysql_dag
+AIRFLOW_CTX_TASK_ID=mysql_connection
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-27T22:56:49.667397+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-27T22:56:49.667397+00:00
+[2023-03-28T00:56:53.449+0200] {sql.py:254} INFO - Executing: CREATE TABLE IF NOT EXISTS securities(Symbol VARCHAR(255),
+                                                      Security VARCHAR(255),
+                                                      SEC_filings VARCHAR(255),
+                                                      GICS_Sector VARCHAR(255),
+                                                      GICS_Sub_Industry VARCHAR(255),
+                                                      Headquaters_Location VARCHAR(255),
+                                                      id INT AUTO_INCREMENT PRIMARY KEY);
+[2023-03-28T00:56:53.464+0200] {base.py:73} INFO - Using connection ID 'mysql_connection' for task execution.
+[2023-03-28T00:56:53.569+0200] {base.py:73} INFO - Using connection ID 'mysql_connection' for task execution.
+[2023-03-28T00:56:53.588+0200] {sql.py:375} INFO - Running statement: CREATE TABLE IF NOT EXISTS securities(Symbol VARCHAR(255),
+                                                      Security VARCHAR(255),
+                                                      SEC_filings VARCHAR(255),
+                                                      GICS_Sector VARCHAR(255),
+                                                      GICS_Sub_Industry VARCHAR(255),
+                                                      Headquaters_Location VARCHAR(255),
+                                                      id INT AUTO_INCREMENT PRIMARY KEY);, parameters: None
+[2023-03-28T00:56:53.689+0200] {sql.py:384} INFO - Rows affected: 0
+[2023-03-28T00:56:53.706+0200] {taskinstance.py:1321} INFO - Marking task as SUCCESS. dag_id=mysql_dag, task_id=mysql_connection, execution_date=20230327T225649, start_date=20230327T225652, end_date=20230327T225653
+[2023-03-28T00:56:53.841+0200] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-03-28T00:56:53.874+0200] {taskinstance.py:2585} INFO - 1 downstream tasks scheduled from follow-on schedule check

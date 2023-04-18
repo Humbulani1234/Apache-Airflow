@@ -1,0 +1,210 @@
+[2023-03-28T00:03:41.793+0200] {processor.py:153} INFO - Started process (PID=22485) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:03:41.794+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:03:41.795+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:03:41.794+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:03:41.904+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:03:41.946+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:03:41.945+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:03:41.978+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:03:41.978+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:03:42.083+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.291 seconds
+[2023-03-28T00:04:31.237+0200] {processor.py:153} INFO - Started process (PID=22575) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:04:31.247+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:04:31.247+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:04:31.247+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:04:31.262+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:04:31.279+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:04:31.279+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:04:31.296+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:04:31.296+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:04:31.376+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.143 seconds
+[2023-03-28T00:05:12.761+0200] {processor.py:153} INFO - Started process (PID=22610) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:05:12.762+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:05:12.762+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:05:12.762+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:05:12.774+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:05:12.792+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:05:12.792+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:05:12.810+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:05:12.810+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:05:12.885+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.126 seconds
+[2023-03-28T00:05:47.920+0200] {processor.py:153} INFO - Started process (PID=22680) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:05:47.936+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:05:47.938+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:05:47.937+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:05:47.952+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:05:47.971+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:05:47.971+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:05:47.993+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:05:47.993+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:05:48.089+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.172 seconds
+[2023-03-28T00:06:18.480+0200] {processor.py:153} INFO - Started process (PID=22749) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:06:18.481+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:06:18.481+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:06:18.481+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:06:18.492+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:06:18.509+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:06:18.509+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:06:18.526+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:06:18.526+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:06:18.598+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.121 seconds
+[2023-03-28T00:07:03.958+0200] {processor.py:153} INFO - Started process (PID=22793) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:07:03.966+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:07:03.967+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:07:03.967+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:07:03.978+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:07:03.996+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:07:03.996+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:07:04.014+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:07:04.014+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:07:04.091+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.136 seconds
+[2023-03-28T00:07:38.422+0200] {processor.py:153} INFO - Started process (PID=22825) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:07:38.440+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:07:38.440+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:07:38.440+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:07:38.451+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:07:38.471+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:07:38.470+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:07:38.488+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:07:38.487+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:07:38.571+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.152 seconds
+[2023-03-28T00:08:13.177+0200] {processor.py:153} INFO - Started process (PID=22909) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:08:13.192+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:08:13.193+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:08:13.193+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:08:13.206+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:08:13.225+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:08:13.225+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:08:13.244+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:08:13.244+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:08:13.326+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.151 seconds
+[2023-03-28T00:08:49.694+0200] {processor.py:153} INFO - Started process (PID=22943) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:08:49.702+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:08:49.703+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:08:49.703+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:08:49.717+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:08:49.734+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:08:49.734+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:08:49.751+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:08:49.751+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:08:49.906+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.216 seconds
+[2023-03-28T00:09:29.326+0200] {processor.py:153} INFO - Started process (PID=22986) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:09:29.335+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:09:29.336+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:09:29.336+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:09:29.347+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:09:29.365+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:09:29.365+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:09:29.464+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:09:29.464+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:09:29.561+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.238 seconds
+[2023-03-28T00:10:09.789+0200] {processor.py:153} INFO - Started process (PID=23023) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:10:09.790+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:10:09.791+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:10:09.791+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:10:09.805+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:10:09.824+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:10:09.824+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:10:09.919+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:10:09.919+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:10:09.986+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.200 seconds
+[2023-03-28T00:10:49.738+0200] {processor.py:153} INFO - Started process (PID=23059) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:10:49.782+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:10:49.783+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:10:49.783+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:10:49.797+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:10:49.903+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:10:49.902+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:10:49.918+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:10:49.918+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:10:50.001+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.266 seconds
+[2023-03-28T00:11:33.910+0200] {processor.py:153} INFO - Started process (PID=23096) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:11:33.928+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:11:33.929+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:11:33.928+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:11:34.030+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:11:34.043+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:11:34.043+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:11:34.059+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:11:34.058+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:11:34.135+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.229 seconds
+[2023-03-28T00:12:21.549+0200] {processor.py:153} INFO - Started process (PID=23134) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:12:21.564+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:12:21.565+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:12:21.565+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:12:21.656+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:12:21.670+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:12:21.669+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:12:21.685+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:12:21.685+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:12:21.761+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.215 seconds
+[2023-03-28T00:12:58.406+0200] {processor.py:153} INFO - Started process (PID=23195) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:12:58.425+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:12:58.426+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:12:58.425+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:12:58.441+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:12:58.463+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:12:58.463+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:12:58.480+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:12:58.480+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:12:58.556+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.152 seconds
+[2023-03-28T00:13:29.044+0200] {processor.py:153} INFO - Started process (PID=23228) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:13:29.045+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:13:29.046+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:13:29.046+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:13:29.060+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:13:29.078+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:13:29.077+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:13:29.095+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:13:29.095+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:13:29.176+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.135 seconds
+[2023-03-28T00:14:11.424+0200] {processor.py:153} INFO - Started process (PID=23276) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:14:11.443+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:14:11.443+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:14:11.443+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:14:11.454+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:14:11.472+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:14:11.472+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:14:11.489+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:14:11.489+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:14:11.568+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.146 seconds
+[2023-03-28T00:14:43.310+0200] {processor.py:153} INFO - Started process (PID=23308) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:14:43.311+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:14:43.312+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:14:43.312+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:14:43.325+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:14:43.343+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:14:43.343+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:14:43.360+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:14:43.359+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:14:43.465+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.158 seconds
+[2023-03-28T00:15:16.440+0200] {processor.py:153} INFO - Started process (PID=23342) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:15:16.456+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:15:16.457+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:15:16.457+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:15:16.471+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:15:16.488+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:15:16.488+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:15:16.506+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:15:16.506+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:15:16.597+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.160 seconds
+[2023-03-28T00:15:46.838+0200] {processor.py:153} INFO - Started process (PID=23397) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:15:46.853+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:15:46.854+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:15:46.854+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:15:46.865+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:15:46.884+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:15:46.884+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:15:46.902+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:15:46.902+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:15:46.997+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.161 seconds
+[2023-03-28T00:16:18.362+0200] {processor.py:153} INFO - Started process (PID=23447) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:16:18.363+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:16:18.364+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:16:18.363+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:16:18.378+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:16:18.397+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:16:18.396+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:16:18.414+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:16:18.414+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:16:18.506+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.147 seconds
+[2023-03-28T00:16:54.224+0200] {processor.py:153} INFO - Started process (PID=23522) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:16:54.225+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:16:54.226+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:16:54.226+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:16:54.237+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:16:54.255+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:16:54.255+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:16:54.273+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:16:54.273+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:16:54.361+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.139 seconds
+[2023-03-28T00:17:27.805+0200] {processor.py:153} INFO - Started process (PID=23595) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:17:27.806+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:17:27.807+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:17:27.807+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:17:27.821+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:17:27.840+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:17:27.840+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:17:27.858+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:17:27.858+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:17:27.951+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.149 seconds
+[2023-03-28T00:17:58.254+0200] {processor.py:153} INFO - Started process (PID=23626) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:17:58.268+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:17:58.269+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:17:58.269+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:17:58.281+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:17:58.302+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:17:58.301+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:17:58.321+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:17:58.320+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:17:58.403+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.151 seconds
+[2023-03-28T00:18:42.295+0200] {processor.py:153} INFO - Started process (PID=23668) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:18:42.318+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:18:42.318+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:18:42.318+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:18:42.331+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:18:42.354+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:18:42.354+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:18:42.371+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:18:42.371+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:18:42.462+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.169 seconds
+[2023-03-28T00:19:14.313+0200] {processor.py:153} INFO - Started process (PID=23699) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:19:14.330+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:19:14.331+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:19:14.331+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:19:14.343+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:19:14.360+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:19:14.360+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:19:14.376+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:19:14.376+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:19:14.449+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.138 seconds
+[2023-03-28T00:19:45.450+0200] {processor.py:153} INFO - Started process (PID=23730) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:19:45.451+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:19:45.451+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:19:45.451+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:19:45.465+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:19:45.484+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:19:45.484+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:19:45.502+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:19:45.502+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:19:45.579+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.132 seconds
+[2023-03-28T00:20:18.794+0200] {processor.py:153} INFO - Started process (PID=23763) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:20:18.821+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:20:18.822+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:20:18.822+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:20:18.834+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:20:18.851+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:20:18.851+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:20:18.870+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:20:18.870+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:20:18.947+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.155 seconds
+[2023-03-28T00:20:59.462+0200] {processor.py:153} INFO - Started process (PID=23800) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:20:59.476+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:20:59.476+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:20:59.476+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:20:59.490+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:20:59.509+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:20:59.509+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:20:59.530+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:20:59.530+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:20:59.610+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.151 seconds
+[2023-03-28T00:21:42.263+0200] {processor.py:153} INFO - Started process (PID=23851) to work on /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:21:42.272+0200] {processor.py:743} INFO - Processing file /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-03-28T00:21:42.273+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:21:42.273+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:21:42.288+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-03-28T00:21:42.306+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:21:42.306+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-03-28T00:21:42.324+0200] {logging_mixin.py:137} INFO - [2023-03-28T00:21:42.324+0200] {dag.py:3440} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-03-28T00:21:42.391+0200] {processor.py:175} INFO - Processing /home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.131 seconds

@@ -1,0 +1,30 @@
+[2023-03-28T00:55:02.169+0200] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mysql_dag.insert_data manual__2023-03-27T22:54:55.765309+00:00 [queued]>
+[2023-03-28T00:55:02.178+0200] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mysql_dag.insert_data manual__2023-03-27T22:54:55.765309+00:00 [queued]>
+[2023-03-28T00:55:02.179+0200] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-28T00:55:02.179+0200] {taskinstance.py:1283} INFO - Starting attempt 1 of 1
+[2023-03-28T00:55:02.179+0200] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-28T00:55:02.301+0200] {taskinstance.py:1303} INFO - Executing <Task(PythonOperator): insert_data> on 2023-03-27 22:54:55.765309+00:00
+[2023-03-28T00:55:02.310+0200] {standard_task_runner.py:55} INFO - Started process 25907 to run task
+[2023-03-28T00:55:02.313+0200] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'mysql_dag', 'insert_data', 'manual__2023-03-27T22:54:55.765309+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/new2_dag.py', '--cfg-path', '/tmp/tmpb02gebuv']
+[2023-03-28T00:55:02.314+0200] {standard_task_runner.py:83} INFO - Job 4: Subtask insert_data
+[2023-03-28T00:55:02.490+0200] {task_command.py:388} INFO - Running <TaskInstance: mysql_dag.insert_data manual__2023-03-27T22:54:55.765309+00:00 [running]> on host namenode
+[2023-03-28T00:55:02.833+0200] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=mysql_dag
+AIRFLOW_CTX_TASK_ID=insert_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-27T22:54:55.765309+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-27T22:54:55.765309+00:00
+[2023-03-28T00:55:02.834+0200] {taskinstance.py:1775} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/humbulani/miniconda3/envs/apache-airflow/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+TypeError: INSERT_INTO_TABLE() missing 1 required positional argument: 'table_data'
+[2023-03-28T00:55:02.859+0200] {taskinstance.py:1321} INFO - Marking task as FAILED. dag_id=mysql_dag, task_id=insert_data, execution_date=20230327T225455, start_date=20230327T225502, end_date=20230327T225502
+[2023-03-28T00:55:02.974+0200] {standard_task_runner.py:100} ERROR - Failed to execute job 4 for task insert_data (INSERT_INTO_TABLE() missing 1 required positional argument: 'table_data'; 25907)
+[2023-03-28T00:55:03.005+0200] {local_task_job.py:212} INFO - Task exited with return code 1
+[2023-03-28T00:55:03.035+0200] {taskinstance.py:2585} INFO - 0 downstream tasks scheduled from follow-on schedule check

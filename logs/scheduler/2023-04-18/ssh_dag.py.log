@@ -1,0 +1,84 @@
+[2023-04-18T02:27:28.500+0200] {processor.py:153} INFO - Started process (PID=10266) to work on /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:27:28.500+0200] {processor.py:743} INFO - Processing file /home/humbulani/airflow/dags/ssh_dag.py for tasks to queue
+[2023-04-18T02:27:28.501+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:27:28.501+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:27:28.880+0200] {processor.py:753} INFO - DAG(s) dict_keys(['ssh']) retrieved from /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:27:29.035+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:27:29.035+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-18T02:27:29.109+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:27:29.109+0200] {dag.py:3440} INFO - Setting next_dagrun for ssh to None, run_after=None
+[2023-04-18T02:27:29.371+0200] {processor.py:175} INFO - Processing /home/humbulani/airflow/dags/ssh_dag.py took 0.876 seconds
+[2023-04-18T02:27:59.697+0200] {processor.py:153} INFO - Started process (PID=10475) to work on /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:27:59.697+0200] {processor.py:743} INFO - Processing file /home/humbulani/airflow/dags/ssh_dag.py for tasks to queue
+[2023-04-18T02:27:59.698+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:27:59.698+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:27:59.720+0200] {processor.py:753} INFO - DAG(s) dict_keys(['ssh']) retrieved from /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:27:59.748+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:27:59.748+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-18T02:27:59.769+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:27:59.768+0200] {dag.py:3440} INFO - Setting next_dagrun for ssh to None, run_after=None
+[2023-04-18T02:27:59.882+0200] {processor.py:175} INFO - Processing /home/humbulani/airflow/dags/ssh_dag.py took 0.189 seconds
+[2023-04-18T02:28:30.021+0200] {processor.py:153} INFO - Started process (PID=10524) to work on /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:28:30.036+0200] {processor.py:743} INFO - Processing file /home/humbulani/airflow/dags/ssh_dag.py for tasks to queue
+[2023-04-18T02:28:30.036+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:28:30.036+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:28:30.056+0200] {processor.py:753} INFO - DAG(s) dict_keys(['ssh']) retrieved from /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:28:30.084+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:28:30.084+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-18T02:28:30.104+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:28:30.104+0200] {dag.py:3440} INFO - Setting next_dagrun for ssh to None, run_after=None
+[2023-04-18T02:28:30.366+0200] {processor.py:175} INFO - Processing /home/humbulani/airflow/dags/ssh_dag.py took 0.348 seconds
+[2023-04-18T02:29:00.562+0200] {processor.py:153} INFO - Started process (PID=10538) to work on /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:29:00.563+0200] {processor.py:743} INFO - Processing file /home/humbulani/airflow/dags/ssh_dag.py for tasks to queue
+[2023-04-18T02:29:00.564+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:29:00.563+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:29:00.584+0200] {processor.py:753} INFO - DAG(s) dict_keys(['ssh']) retrieved from /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:29:00.610+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:29:00.610+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-18T02:29:00.629+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:29:00.629+0200] {dag.py:3440} INFO - Setting next_dagrun for ssh to None, run_after=None
+[2023-04-18T02:29:00.730+0200] {processor.py:175} INFO - Processing /home/humbulani/airflow/dags/ssh_dag.py took 0.170 seconds
+[2023-04-18T02:29:30.892+0200] {processor.py:153} INFO - Started process (PID=10591) to work on /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:29:30.939+0200] {processor.py:743} INFO - Processing file /home/humbulani/airflow/dags/ssh_dag.py for tasks to queue
+[2023-04-18T02:29:30.940+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:29:30.940+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:29:30.972+0200] {processor.py:753} INFO - DAG(s) dict_keys(['ssh']) retrieved from /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:29:31.014+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:29:31.014+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-18T02:29:31.050+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:29:31.050+0200] {dag.py:3440} INFO - Setting next_dagrun for ssh to None, run_after=None
+[2023-04-18T02:29:31.324+0200] {processor.py:175} INFO - Processing /home/humbulani/airflow/dags/ssh_dag.py took 0.437 seconds
+[2023-04-18T02:30:01.459+0200] {processor.py:153} INFO - Started process (PID=10618) to work on /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:30:01.460+0200] {processor.py:743} INFO - Processing file /home/humbulani/airflow/dags/ssh_dag.py for tasks to queue
+[2023-04-18T02:30:01.460+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:30:01.460+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:30:01.489+0200] {processor.py:753} INFO - DAG(s) dict_keys(['ssh']) retrieved from /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:30:01.521+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:30:01.521+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-18T02:30:01.544+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:30:01.544+0200] {dag.py:3440} INFO - Setting next_dagrun for ssh to None, run_after=None
+[2023-04-18T02:30:01.657+0200] {processor.py:175} INFO - Processing /home/humbulani/airflow/dags/ssh_dag.py took 0.202 seconds
+[2023-04-18T02:30:31.786+0200] {processor.py:153} INFO - Started process (PID=10632) to work on /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:30:31.829+0200] {processor.py:743} INFO - Processing file /home/humbulani/airflow/dags/ssh_dag.py for tasks to queue
+[2023-04-18T02:30:31.830+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:30:31.830+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:30:31.851+0200] {processor.py:753} INFO - DAG(s) dict_keys(['ssh']) retrieved from /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:30:31.882+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:30:31.881+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-18T02:30:31.904+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:30:31.904+0200] {dag.py:3440} INFO - Setting next_dagrun for ssh to None, run_after=None
+[2023-04-18T02:30:32.071+0200] {processor.py:175} INFO - Processing /home/humbulani/airflow/dags/ssh_dag.py took 0.288 seconds
+[2023-04-18T02:31:02.202+0200] {processor.py:153} INFO - Started process (PID=10651) to work on /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:31:02.223+0200] {processor.py:743} INFO - Processing file /home/humbulani/airflow/dags/ssh_dag.py for tasks to queue
+[2023-04-18T02:31:02.224+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:31:02.223+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:31:02.246+0200] {processor.py:753} INFO - DAG(s) dict_keys(['ssh']) retrieved from /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:31:02.274+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:31:02.274+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-18T02:31:02.294+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:31:02.294+0200] {dag.py:3440} INFO - Setting next_dagrun for ssh to None, run_after=None
+[2023-04-18T02:31:02.483+0200] {processor.py:175} INFO - Processing /home/humbulani/airflow/dags/ssh_dag.py took 0.284 seconds
+[2023-04-18T02:31:32.697+0200] {processor.py:153} INFO - Started process (PID=10714) to work on /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:31:32.698+0200] {processor.py:743} INFO - Processing file /home/humbulani/airflow/dags/ssh_dag.py for tasks to queue
+[2023-04-18T02:31:32.699+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:31:32.699+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:31:32.739+0200] {processor.py:753} INFO - DAG(s) dict_keys(['ssh']) retrieved from /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:31:32.784+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:31:32.783+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-18T02:31:32.818+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:31:32.818+0200] {dag.py:3440} INFO - Setting next_dagrun for ssh to None, run_after=None
+[2023-04-18T02:31:33.207+0200] {processor.py:175} INFO - Processing /home/humbulani/airflow/dags/ssh_dag.py took 0.514 seconds
+[2023-04-18T02:32:03.386+0200] {processor.py:153} INFO - Started process (PID=10735) to work on /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:32:03.386+0200] {processor.py:743} INFO - Processing file /home/humbulani/airflow/dags/ssh_dag.py for tasks to queue
+[2023-04-18T02:32:03.387+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:32:03.386+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:32:03.408+0200] {processor.py:753} INFO - DAG(s) dict_keys(['ssh']) retrieved from /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:32:03.438+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:32:03.437+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-18T02:32:03.458+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:32:03.458+0200] {dag.py:3440} INFO - Setting next_dagrun for ssh to None, run_after=None
+[2023-04-18T02:32:03.808+0200] {processor.py:175} INFO - Processing /home/humbulani/airflow/dags/ssh_dag.py took 0.425 seconds
+[2023-04-18T02:32:33.955+0200] {processor.py:153} INFO - Started process (PID=10750) to work on /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:32:33.970+0200] {processor.py:743} INFO - Processing file /home/humbulani/airflow/dags/ssh_dag.py for tasks to queue
+[2023-04-18T02:32:33.971+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:32:33.970+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:32:33.990+0200] {processor.py:753} INFO - DAG(s) dict_keys(['ssh']) retrieved from /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:32:34.019+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:32:34.018+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-18T02:32:34.038+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:32:34.038+0200] {dag.py:3440} INFO - Setting next_dagrun for ssh to None, run_after=None
+[2023-04-18T02:32:34.172+0200] {processor.py:175} INFO - Processing /home/humbulani/airflow/dags/ssh_dag.py took 0.219 seconds
+[2023-04-18T02:33:04.353+0200] {processor.py:153} INFO - Started process (PID=10765) to work on /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:33:04.354+0200] {processor.py:743} INFO - Processing file /home/humbulani/airflow/dags/ssh_dag.py for tasks to queue
+[2023-04-18T02:33:04.355+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:33:04.355+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:33:04.377+0200] {processor.py:753} INFO - DAG(s) dict_keys(['ssh']) retrieved from /home/humbulani/airflow/dags/ssh_dag.py
+[2023-04-18T02:33:04.403+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:33:04.403+0200] {dag.py:2693} INFO - Sync 1 DAGs
+[2023-04-18T02:33:04.424+0200] {logging_mixin.py:137} INFO - [2023-04-18T02:33:04.424+0200] {dag.py:3440} INFO - Setting next_dagrun for ssh to None, run_after=None
+[2023-04-18T02:33:04.566+0200] {processor.py:175} INFO - Processing /home/humbulani/airflow/dags/ssh_dag.py took 0.217 seconds
