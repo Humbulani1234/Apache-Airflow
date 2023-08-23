@@ -6716,3 +6716,2147 @@ File Path                                 PID    Runtime      # DAGs    # Errors
 /home/humbulani/airflow/dags/new2_dag.py                           1           0  0.50s           2023-04-18T00:32:41
 ================================================================================
 [2023-04-18T02:33:31.011+0200] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-05-25T16:09:54.539+0200] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2023-05-25T16:09:54.574+0200] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-05-25T16:09:54.575+0200] {manager.py:485} INFO - Checking for new files in /home/humbulani/airflow/dags every 300 seconds
+[2023-05-25T16:09:54.575+0200] {manager.py:726} INFO - Searching for files in /home/humbulani/airflow/dags
+[2023-05-25T16:09:54.769+0200] {manager.py:729} INFO - There are 2 files in /home/humbulani/airflow/dags
+[2023-05-25T16:09:54.906+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/home/humbulani/airflow/dags/ssh_dag.py   25840  0.03s             0           0
+/home/humbulani/airflow/dags/new2_dag.py  25843  0.03s             0           0
+================================================================================
+[2023-05-25T16:10:25.013+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.65s           2023-05-25T14:09:55
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  4.00s           2023-05-25T14:09:58
+================================================================================
+[2023-05-25T16:10:55.146+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.31s           2023-05-25T14:10:26
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.51s           2023-05-25T14:10:29
+================================================================================
+[2023-05-25T16:11:25.647+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.35s           2023-05-25T14:10:56
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.43s           2023-05-25T14:11:00
+================================================================================
+[2023-05-25T16:11:56.015+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.26s           2023-05-25T14:11:26
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.57s           2023-05-25T14:11:31
+================================================================================
+[2023-05-25T16:12:26.333+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.20s           2023-05-25T14:11:57
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.56s           2023-05-25T14:12:02
+================================================================================
+[2023-05-25T16:12:56.716+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.27s           2023-05-25T14:12:27
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.60s           2023-05-25T14:12:33
+================================================================================
+[2023-05-25T16:13:23.359+0200] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-06-26T12:49:46.699+0200] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2023-06-26T12:49:46.997+0200] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-06-26T12:49:46.998+0200] {manager.py:485} INFO - Checking for new files in /home/humbulani/airflow/dags every 300 seconds
+[2023-06-26T12:49:46.998+0200] {manager.py:726} INFO - Searching for files in /home/humbulani/airflow/dags
+[2023-06-26T12:49:47.270+0200] {manager.py:729} INFO - There are 2 files in /home/humbulani/airflow/dags
+[2023-06-26T12:49:48.044+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/home/humbulani/airflow/dags/ssh_dag.py    4492  0.13s             0           0
+/home/humbulani/airflow/dags/new2_dag.py   4495  0.12s             0           0
+================================================================================
+[2023-06-26T12:50:18.319+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  2.31s           2023-06-26T10:49:50
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  27.95s          2023-06-26T10:50:15
+================================================================================
+[2023-06-26T12:50:48.957+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.52s           2023-06-26T10:50:20
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.04s           2023-06-26T10:50:46
+================================================================================
+[2023-06-26T12:51:19.444+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.37s           2023-06-26T10:50:51
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.79s           2023-06-26T10:51:17
+================================================================================
+[2023-06-26T12:51:49.892+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.55s           2023-06-26T10:51:22
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.88s           2023-06-26T10:51:48
+================================================================================
+[2023-06-26T12:52:20.014+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.44s           2023-06-26T10:51:52
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.80s           2023-06-26T10:52:20
+================================================================================
+[2023-06-26T12:52:50.138+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.43s           2023-06-26T10:52:23
+/home/humbulani/airflow/dags/new2_dag.py   4674  0.00s             1           0  0.80s           2023-06-26T10:52:20
+================================================================================
+[2023-06-26T12:53:20.729+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.46s           2023-06-26T10:52:53
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.49s           2023-06-26T10:52:51
+================================================================================
+[2023-06-26T12:53:50.850+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.47s           2023-06-26T10:53:24
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.60s           2023-06-26T10:53:22
+================================================================================
+[2023-06-26T12:54:21.608+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.38s           2023-06-26T10:53:54
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.65s           2023-06-26T10:53:53
+================================================================================
+[2023-06-26T12:54:47.159+0200] {manager.py:726} INFO - Searching for files in /home/humbulani/airflow/dags
+[2023-06-26T12:54:47.160+0200] {manager.py:729} INFO - There are 2 files in /home/humbulani/airflow/dags
+[2023-06-26T12:54:51.911+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.28s           2023-06-26T10:54:25
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.66s           2023-06-26T10:54:24
+================================================================================
+[2023-06-26T12:55:22.670+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.36s           2023-06-26T10:54:55
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.71s           2023-06-26T10:54:55
+================================================================================
+[2023-06-26T12:55:52.727+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.42s           2023-06-26T10:55:26
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.94s           2023-06-26T10:55:26
+================================================================================
+[2023-06-26T12:56:22.844+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.49s           2023-06-26T10:55:56
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.78s           2023-06-26T10:55:57
+================================================================================
+[2023-06-26T12:56:53.178+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.54s           2023-06-26T10:56:27
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.76s           2023-06-26T10:56:29
+================================================================================
+[2023-06-26T12:57:23.393+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.45s           2023-06-26T10:56:57
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.81s           2023-06-26T10:57:00
+================================================================================
+[2023-06-26T12:57:53.546+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.41s           2023-06-26T10:57:28
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.71s           2023-06-26T10:57:31
+================================================================================
+[2023-06-26T12:58:23.978+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.31s           2023-06-26T10:57:58
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.61s           2023-06-26T10:58:02
+================================================================================
+[2023-06-26T12:58:54.063+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.40s           2023-06-26T10:58:29
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.70s           2023-06-26T10:58:32
+================================================================================
+[2023-06-26T12:59:24.263+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.68s           2023-06-26T10:59:00
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.83s           2023-06-26T10:59:03
+================================================================================
+[2023-06-26T12:59:47.811+0200] {manager.py:726} INFO - Searching for files in /home/humbulani/airflow/dags
+[2023-06-26T12:59:47.813+0200] {manager.py:729} INFO - There are 2 files in /home/humbulani/airflow/dags
+[2023-06-26T12:59:54.852+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.46s           2023-06-26T10:59:30
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.60s           2023-06-26T10:59:34
+================================================================================
+[2023-06-26T13:00:24.974+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.80s           2023-06-26T11:00:01
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.92s           2023-06-26T11:00:05
+================================================================================
+[2023-06-26T13:00:55.186+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.30s           2023-06-26T11:00:32
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.58s           2023-06-26T11:00:36
+================================================================================
+[2023-06-26T13:01:25.414+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.49s           2023-06-26T11:01:02
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.64s           2023-06-26T11:01:07
+================================================================================
+[2023-06-26T13:01:55.904+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.56s           2023-06-26T11:01:33
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.62s           2023-06-26T11:01:38
+================================================================================
+[2023-06-26T13:02:26.574+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.56s           2023-06-26T11:02:04
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.68s           2023-06-26T11:02:08
+================================================================================
+[2023-06-26T13:02:56.645+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.45s           2023-06-26T11:02:35
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.67s           2023-06-26T11:02:39
+================================================================================
+[2023-06-26T13:03:26.762+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.51s           2023-06-26T11:03:05
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.69s           2023-06-26T11:03:10
+================================================================================
+[2023-06-26T13:03:57.321+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.44s           2023-06-26T11:03:36
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.61s           2023-06-26T11:03:41
+================================================================================
+[2023-06-26T13:04:27.545+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.58s           2023-06-26T11:04:06
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.97s           2023-06-26T11:04:12
+================================================================================
+[2023-06-26T13:04:48.273+0200] {manager.py:726} INFO - Searching for files in /home/humbulani/airflow/dags
+[2023-06-26T13:04:48.275+0200] {manager.py:729} INFO - There are 2 files in /home/humbulani/airflow/dags
+[2023-06-26T13:04:57.738+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.62s           2023-06-26T11:04:37
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.65s           2023-06-26T11:04:43
+================================================================================
+[2023-06-26T13:05:27.856+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.50s           2023-06-26T11:05:08
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.67s           2023-06-26T11:05:13
+================================================================================
+[2023-06-26T13:05:58.032+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.39s           2023-06-26T11:05:39
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.90s           2023-06-26T11:05:44
+================================================================================
+[2023-06-26T13:06:28.179+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.46s           2023-06-26T11:06:09
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.73s           2023-06-26T11:06:16
+================================================================================
+[2023-06-26T13:06:58.430+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.41s           2023-06-26T11:06:40
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.84s           2023-06-26T11:06:47
+================================================================================
+[2023-06-26T13:07:28.855+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.54s           2023-06-26T11:07:11
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.88s           2023-06-26T11:07:18
+================================================================================
+[2023-06-26T13:07:58.707+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.54s           2023-06-26T11:07:42
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.86s           2023-06-26T11:07:49
+================================================================================
+[2023-06-26T13:08:29.096+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.47s           2023-06-26T11:08:13
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.93s           2023-06-26T11:08:21
+================================================================================
+[2023-06-26T13:08:59.154+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.62s           2023-06-26T11:08:44
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.95s           2023-06-26T11:08:52
+================================================================================
+[2023-06-26T13:09:29.301+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.82s           2023-06-26T11:09:15
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.05s           2023-06-26T11:09:23
+================================================================================
+[2023-06-26T13:09:48.388+0200] {manager.py:726} INFO - Searching for files in /home/humbulani/airflow/dags
+[2023-06-26T13:09:48.389+0200] {manager.py:729} INFO - There are 2 files in /home/humbulani/airflow/dags
+[2023-06-26T13:09:59.793+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.38s           2023-06-26T11:09:45
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.72s           2023-06-26T11:09:54
+================================================================================
+[2023-06-26T13:10:30.225+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.31s           2023-06-26T11:10:16
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.52s           2023-06-26T11:10:24
+================================================================================
+[2023-06-26T13:11:00.622+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.28s           2023-06-26T11:10:46
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.79s           2023-06-26T11:10:56
+================================================================================
+[2023-06-26T13:11:30.736+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.41s           2023-06-26T11:11:17
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.61s           2023-06-26T11:11:26
+================================================================================
+[2023-06-26T13:12:01.126+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.27s           2023-06-26T11:11:48
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.57s           2023-06-26T11:11:57
+================================================================================
+[2023-06-26T13:12:31.249+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.27s           2023-06-26T11:12:18
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.76s           2023-06-26T11:12:28
+================================================================================
+[2023-06-26T13:13:01.395+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.29s           2023-06-26T11:12:49
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.06s           2023-06-26T11:12:59
+================================================================================
+[2023-06-26T13:13:31.541+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.71s           2023-06-26T11:13:21
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.05s           2023-06-26T11:13:30
+================================================================================
+[2023-06-26T13:13:57.972+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.36s           2023-06-26T11:13:52
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.05s           2023-06-26T11:13:30
+================================================================================
+[2023-06-26T13:14:31.153+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.69s           2023-06-26T11:14:23
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.36s           2023-06-26T11:14:02
+================================================================================
+[2023-06-26T13:14:48.736+0200] {manager.py:726} INFO - Searching for files in /home/humbulani/airflow/dags
+[2023-06-26T13:14:48.737+0200] {manager.py:729} INFO - There are 2 files in /home/humbulani/airflow/dags
+[2023-06-26T13:15:00.926+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.86s           2023-06-26T11:14:54
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.33s           2023-06-26T11:14:33
+================================================================================
+[2023-06-26T13:15:33.119+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.74s           2023-06-26T11:15:25
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.08s           2023-06-26T11:15:05
+================================================================================
+[2023-06-26T13:16:03.486+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.54s           2023-06-26T11:15:55
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.81s           2023-06-26T11:15:36
+================================================================================
+[2023-06-26T13:16:33.953+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.45s           2023-06-26T11:16:26
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.80s           2023-06-26T11:16:07
+================================================================================
+[2023-06-26T13:17:04.260+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.42s           2023-06-26T11:16:57
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.75s           2023-06-26T11:16:38
+================================================================================
+[2023-06-26T13:17:34.926+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.36s           2023-06-26T11:17:27
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.56s           2023-06-26T11:17:08
+================================================================================
+[2023-06-26T13:18:05.076+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.53s           2023-06-26T11:17:58
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.61s           2023-06-26T11:17:39
+================================================================================
+[2023-06-26T13:18:35.404+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.29s           2023-06-26T11:18:29
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.70s           2023-06-26T11:18:10
+================================================================================
+[2023-06-26T13:19:05.572+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.45s           2023-06-26T11:18:59
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.73s           2023-06-26T11:18:41
+================================================================================
+[2023-06-26T13:19:36.496+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.40s           2023-06-26T11:19:30
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.81s           2023-06-26T11:19:12
+================================================================================
+[2023-06-26T13:19:49.163+0200] {manager.py:726} INFO - Searching for files in /home/humbulani/airflow/dags
+[2023-06-26T13:19:49.165+0200] {manager.py:729} INFO - There are 2 files in /home/humbulani/airflow/dags
+[2023-06-26T13:20:06.645+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.33s           2023-06-26T11:20:00
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.60s           2023-06-26T11:19:43
+================================================================================
+[2023-06-26T13:20:37.344+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.34s           2023-06-26T11:20:31
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.59s           2023-06-26T11:20:14
+================================================================================
+[2023-06-26T13:21:07.535+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.37s           2023-06-26T11:21:01
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.67s           2023-06-26T11:20:45
+================================================================================
+[2023-06-26T13:21:38.138+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.35s           2023-06-26T11:21:32
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.49s           2023-06-26T11:21:16
+================================================================================
+[2023-06-26T13:22:08.469+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.26s           2023-06-26T11:22:02
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.56s           2023-06-26T11:21:46
+================================================================================
+[2023-06-26T13:22:38.840+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.34s           2023-06-26T11:22:33
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.65s           2023-06-26T11:22:17
+================================================================================
+[2023-06-26T13:23:09.293+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.36s           2023-06-26T11:23:03
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.75s           2023-06-26T11:22:48
+================================================================================
+[2023-06-26T13:23:39.761+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.47s           2023-06-26T11:23:34
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.63s           2023-06-26T11:23:19
+================================================================================
+[2023-06-26T13:24:10.341+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.24s           2023-06-26T11:24:04
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.92s           2023-06-26T11:23:50
+================================================================================
+[2023-06-26T13:24:41.037+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.35s           2023-06-26T11:24:35
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.57s           2023-06-26T11:24:21
+================================================================================
+[2023-06-26T13:24:50.072+0200] {manager.py:726} INFO - Searching for files in /home/humbulani/airflow/dags
+[2023-06-26T13:24:50.073+0200] {manager.py:729} INFO - There are 2 files in /home/humbulani/airflow/dags
+[2023-06-26T13:25:11.169+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.33s           2023-06-26T11:25:05
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.60s           2023-06-26T11:24:52
+================================================================================
+[2023-06-26T13:25:41.930+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.31s           2023-06-26T11:25:35
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.64s           2023-06-26T11:25:23
+================================================================================
+[2023-06-26T13:26:12.093+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.25s           2023-06-26T11:26:06
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.83s           2023-06-26T11:25:54
+================================================================================
+[2023-06-26T13:26:43.419+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.57s           2023-06-26T11:26:37
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.68s           2023-06-26T11:26:25
+================================================================================
+[2023-06-26T13:27:13.614+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.84s           2023-06-26T11:27:08
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.67s           2023-06-26T11:26:57
+================================================================================
+[2023-06-26T13:27:43.730+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.36s           2023-06-26T11:27:39
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.82s           2023-06-26T11:27:28
+================================================================================
+[2023-06-26T13:28:13.958+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.32s           2023-06-26T11:28:10
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.77s           2023-06-26T11:27:58
+================================================================================
+[2023-06-26T13:28:44.249+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.98s           2023-06-26T11:28:41
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.63s           2023-06-26T11:28:29
+================================================================================
+[2023-06-26T13:29:14.412+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.33s           2023-06-26T11:29:11
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.59s           2023-06-26T11:29:00
+================================================================================
+[2023-06-26T13:29:45.096+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.51s           2023-06-26T11:29:42
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.56s           2023-06-26T11:29:31
+================================================================================
+[2023-06-26T13:29:50.114+0200] {manager.py:726} INFO - Searching for files in /home/humbulani/airflow/dags
+[2023-06-26T13:29:50.116+0200] {manager.py:729} INFO - There are 2 files in /home/humbulani/airflow/dags
+[2023-06-26T13:30:15.456+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.21s           2023-06-26T11:30:12
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.57s           2023-06-26T11:30:01
+================================================================================
+[2023-06-26T13:30:45.559+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.77s           2023-06-26T11:30:43
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.64s           2023-06-26T11:30:33
+================================================================================
+[2023-06-26T13:31:15.840+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.32s           2023-06-26T11:31:13
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.50s           2023-06-26T11:31:03
+================================================================================
+[2023-06-26T13:31:46.097+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.27s           2023-06-26T11:31:44
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.72s           2023-06-26T11:31:34
+================================================================================
+[2023-06-26T13:32:16.480+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.21s           2023-06-26T11:32:14
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.72s           2023-06-26T11:32:05
+================================================================================
+[2023-06-26T13:32:46.829+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.25s           2023-06-26T11:32:45
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.52s           2023-06-26T11:32:37
+================================================================================
+[2023-06-26T13:33:17.191+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.42s           2023-06-26T11:33:15
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.54s           2023-06-26T11:33:07
+================================================================================
+[2023-06-26T13:33:47.203+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.35s           2023-06-26T11:33:46
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.57s           2023-06-26T11:33:38
+================================================================================
+[2023-06-26T13:34:17.508+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.37s           2023-06-26T11:34:16
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.80s           2023-06-26T11:34:10
+================================================================================
+[2023-06-26T13:34:48.195+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.25s           2023-06-26T11:34:47
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.57s           2023-06-26T11:34:41
+================================================================================
+[2023-06-26T13:34:50.202+0200] {manager.py:726} INFO - Searching for files in /home/humbulani/airflow/dags
+[2023-06-26T13:34:50.203+0200] {manager.py:729} INFO - There are 2 files in /home/humbulani/airflow/dags
+[2023-06-26T13:35:18.371+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.36s           2023-06-26T11:35:17
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.06s           2023-06-26T11:35:12
+================================================================================
+[2023-06-26T13:35:48.821+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.24s           2023-06-26T11:35:48
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.74s           2023-06-26T11:35:43
+================================================================================
+[2023-06-26T13:36:18.111+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py    7450  0.00s             1           0  0.24s           2023-06-26T11:35:48
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.70s           2023-06-26T11:36:14
+================================================================================
+[2023-06-26T13:36:48.228+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.48s           2023-06-26T11:36:18
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.53s           2023-06-26T11:36:45
+================================================================================
+[2023-06-26T13:37:18.599+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.30s           2023-06-26T11:36:48
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.78s           2023-06-26T11:37:16
+================================================================================
+[2023-06-26T13:37:48.775+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.25s           2023-06-26T11:37:19
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.55s           2023-06-26T11:37:47
+================================================================================
+[2023-06-26T13:38:19.501+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.32s           2023-06-26T11:37:49
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.67s           2023-06-26T11:38:18
+================================================================================
+[2023-06-26T13:38:51.069+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py    7540  0.31s             1           0  0.44s           2023-06-26T11:38:20
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.74s           2023-06-26T11:38:50
+================================================================================
+[2023-06-26T13:39:21.229+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py    7559  0.00s             1           0  0.37s           2023-06-26T11:38:51
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.57s           2023-06-26T11:39:20
+================================================================================
+[2023-06-26T13:39:50.332+0200] {manager.py:726} INFO - Searching for files in /home/humbulani/airflow/dags
+[2023-06-26T13:39:50.334+0200] {manager.py:729} INFO - There are 2 files in /home/humbulani/airflow/dags
+[2023-06-26T13:39:51.354+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.42s           2023-06-26T11:39:21
+/home/humbulani/airflow/dags/new2_dag.py   7651  0.00s             1           0  0.57s           2023-06-26T11:39:20
+================================================================================
+[2023-06-26T13:40:22.219+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py    7675  0.01s             1           0  0.34s           2023-06-26T11:39:52
+/home/humbulani/airflow/dags/new2_dag.py   7678  0.00s             1           0  0.80s           2023-06-26T11:39:52
+================================================================================
+[2023-06-26T13:40:52.304+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.47s           2023-06-26T11:40:22
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.99s           2023-06-26T11:40:23
+================================================================================
+[2023-06-26T13:41:22.420+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.53s           2023-06-26T11:40:53
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.44s           2023-06-26T11:40:54
+================================================================================
+[2023-06-26T13:41:52.978+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.79s           2023-06-26T11:41:24
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.20s           2023-06-26T11:41:26
+================================================================================
+[2023-06-26T13:42:23.247+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.64s           2023-06-26T11:41:55
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.00s           2023-06-26T11:41:57
+================================================================================
+[2023-06-26T13:42:53.359+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.54s           2023-06-26T11:42:26
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.76s           2023-06-26T11:42:28
+================================================================================
+[2023-06-26T13:43:24.047+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.89s           2023-06-26T11:42:57
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.81s           2023-06-26T11:42:58
+================================================================================
+[2023-06-26T13:43:54.480+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.44s           2023-06-26T11:43:27
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.08s           2023-06-26T11:43:30
+================================================================================
+[2023-06-26T13:44:24.641+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.89s           2023-06-26T11:43:59
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.25s           2023-06-26T11:44:01
+================================================================================
+[2023-06-26T13:44:50.690+0200] {manager.py:726} INFO - Searching for files in /home/humbulani/airflow/dags
+[2023-06-26T13:44:50.691+0200] {manager.py:729} INFO - There are 2 files in /home/humbulani/airflow/dags
+[2023-06-26T13:44:54.716+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.36s           2023-06-26T11:44:30
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.72s           2023-06-26T11:44:32
+================================================================================
+[2023-06-26T13:45:24.950+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.42s           2023-06-26T11:45:00
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.73s           2023-06-26T11:45:03
+================================================================================
+[2023-06-26T13:45:55.062+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.41s           2023-06-26T11:45:31
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.08s           2023-06-26T11:45:35
+================================================================================
+[2023-06-26T13:46:25.399+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.46s           2023-06-26T11:46:01
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.07s           2023-06-26T11:46:06
+================================================================================
+[2023-06-26T13:46:55.897+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  3.58s           2023-06-26T11:46:36
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.02s           2023-06-26T11:46:37
+================================================================================
+[2023-06-26T13:47:26.437+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.42s           2023-06-26T11:47:07
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.68s           2023-06-26T11:47:08
+================================================================================
+[2023-06-26T13:47:56.681+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.56s           2023-06-26T11:47:38
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.88s           2023-06-26T11:47:39
+================================================================================
+[2023-06-26T13:48:26.813+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.58s           2023-06-26T11:48:08
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.16s           2023-06-26T11:48:10
+================================================================================
+[2023-06-26T13:48:57.051+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.66s           2023-06-26T11:48:39
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.00s           2023-06-26T11:48:41
+================================================================================
+[2023-06-26T13:49:27.484+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.80s           2023-06-26T11:49:10
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.78s           2023-06-26T11:49:12
+================================================================================
+[2023-06-26T13:49:50.990+0200] {manager.py:726} INFO - Searching for files in /home/humbulani/airflow/dags
+[2023-06-26T13:49:50.991+0200] {manager.py:729} INFO - There are 2 files in /home/humbulani/airflow/dags
+[2023-06-26T13:49:57.599+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.42s           2023-06-26T11:49:40
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.00s           2023-06-26T11:49:43
+================================================================================
+[2023-06-26T13:50:27.698+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.65s           2023-06-26T11:50:11
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.97s           2023-06-26T11:50:15
+================================================================================
+[2023-06-26T13:50:57.904+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  1.20s           2023-06-26T11:50:42
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.05s           2023-06-26T11:50:46
+================================================================================
+[2023-06-26T13:51:28.598+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.58s           2023-06-26T11:51:13
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.77s           2023-06-26T11:51:17
+================================================================================
+[2023-06-26T13:51:58.787+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.72s           2023-06-26T11:51:44
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.90s           2023-06-26T11:51:48
+================================================================================
+[2023-06-26T13:52:28.898+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.53s           2023-06-26T11:52:15
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.08s           2023-06-26T11:52:19
+================================================================================
+[2023-06-26T13:52:59.307+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.30s           2023-06-26T11:52:46
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.73s           2023-06-26T11:52:50
+================================================================================
+[2023-06-26T13:53:29.520+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.62s           2023-06-26T11:53:16
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.60s           2023-06-26T11:53:21
+================================================================================
+[2023-06-26T13:54:00.167+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.46s           2023-06-26T11:53:47
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.91s           2023-06-26T11:53:52
+================================================================================
+[2023-06-26T13:54:30.637+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.64s           2023-06-26T11:54:18
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.13s           2023-06-26T11:54:23
+================================================================================
+[2023-06-26T13:54:51.408+0200] {manager.py:726} INFO - Searching for files in /home/humbulani/airflow/dags
+[2023-06-26T13:54:51.410+0200] {manager.py:729} INFO - There are 2 files in /home/humbulani/airflow/dags
+[2023-06-26T13:55:00.863+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.69s           2023-06-26T11:54:49
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.05s           2023-06-26T11:54:54
+================================================================================
+[2023-06-26T13:55:30.998+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.59s           2023-06-26T11:55:20
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.56s           2023-06-26T11:55:25
+================================================================================
+[2023-06-26T13:56:01.035+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.37s           2023-06-26T11:55:50
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  3.51s           2023-06-26T11:55:59
+================================================================================
+[2023-06-26T13:56:29.183+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.55s           2023-06-26T11:56:21
+/home/humbulani/airflow/dags/new2_dag.py   8424  0.00s             1           0  3.51s           2023-06-26T11:55:59
+================================================================================
+[2023-06-26T13:56:59.313+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.59s           2023-06-26T11:56:52
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.68s           2023-06-26T11:56:29
+================================================================================
+[2023-06-26T13:57:30.575+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.53s           2023-06-26T11:57:23
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.94s           2023-06-26T11:57:00
+================================================================================
+[2023-06-26T13:58:01.987+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.36s           2023-06-26T11:57:54
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.53s           2023-06-26T11:57:32
+================================================================================
+[2023-06-26T13:58:32.181+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.76s           2023-06-26T11:58:25
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.63s           2023-06-26T11:58:03
+================================================================================
+[2023-06-26T13:59:02.824+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.89s           2023-06-26T11:58:56
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.99s           2023-06-26T11:58:34
+================================================================================
+[2023-06-26T13:59:33.294+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.35s           2023-06-26T11:59:26
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.36s           2023-06-26T11:59:06
+================================================================================
+[2023-06-26T13:59:51.704+0200] {manager.py:726} INFO - Searching for files in /home/humbulani/airflow/dags
+[2023-06-26T13:59:51.706+0200] {manager.py:729} INFO - There are 2 files in /home/humbulani/airflow/dags
+[2023-06-26T14:00:04.087+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.33s           2023-06-26T11:59:57
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.69s           2023-06-26T11:59:36
+================================================================================
+[2023-06-26T14:00:34.198+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.52s           2023-06-26T12:00:27
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.80s           2023-06-26T12:00:07
+================================================================================
+[2023-06-26T14:01:05.096+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.31s           2023-06-26T12:00:58
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.79s           2023-06-26T12:00:38
+================================================================================
+[2023-06-26T14:01:35.267+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.35s           2023-06-26T12:01:28
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.79s           2023-06-26T12:01:09
+================================================================================
+[2023-06-26T14:02:06.036+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.38s           2023-06-26T12:01:59
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.64s           2023-06-26T12:01:40
+================================================================================
+[2023-06-26T14:02:36.212+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.43s           2023-06-26T12:02:29
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.62s           2023-06-26T12:02:11
+================================================================================
+[2023-06-26T14:03:06.761+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.36s           2023-06-26T12:03:00
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.84s           2023-06-26T12:02:43
+================================================================================
+[2023-06-26T14:03:37.248+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.29s           2023-06-26T12:03:30
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.02s           2023-06-26T12:03:14
+================================================================================
+[2023-06-26T14:04:07.631+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.26s           2023-06-26T12:04:00
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.60s           2023-06-26T12:03:44
+================================================================================
+[2023-06-26T14:04:37.999+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.56s           2023-06-26T12:04:31
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.57s           2023-06-26T12:04:15
+================================================================================
+[2023-06-26T14:04:52.054+0200] {manager.py:726} INFO - Searching for files in /home/humbulani/airflow/dags
+[2023-06-26T14:04:52.059+0200] {manager.py:729} INFO - There are 2 files in /home/humbulani/airflow/dags
+[2023-06-26T14:05:08.339+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.64s           2023-06-26T12:05:02
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.67s           2023-06-26T12:04:46
+================================================================================
+[2023-06-26T14:05:39.116+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.44s           2023-06-26T12:05:33
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.62s           2023-06-26T12:05:17
+================================================================================
+[2023-06-26T14:06:09.851+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.53s           2023-06-26T12:06:03
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.63s           2023-06-26T12:05:47
+================================================================================
+[2023-06-26T14:06:40.085+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.33s           2023-06-26T12:06:34
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.68s           2023-06-26T12:06:18
+================================================================================
+[2023-06-26T14:07:10.532+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.44s           2023-06-26T12:07:04
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.77s           2023-06-26T12:06:49
+================================================================================
+[2023-06-26T14:07:40.863+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.28s           2023-06-26T12:07:35
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.64s           2023-06-26T12:07:20
+================================================================================
+[2023-06-26T14:08:11.027+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.25s           2023-06-26T12:08:06
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.62s           2023-06-26T12:07:51
+================================================================================
+[2023-06-26T14:08:41.381+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.48s           2023-06-26T12:08:36
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.87s           2023-06-26T12:08:22
+================================================================================
+[2023-06-26T14:09:11.587+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.61s           2023-06-26T12:09:07
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.59s           2023-06-26T12:08:54
+================================================================================
+[2023-06-26T14:09:41.880+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.54s           2023-06-26T12:09:38
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.64s           2023-06-26T12:09:24
+================================================================================
+[2023-06-26T14:09:52.291+0200] {manager.py:726} INFO - Searching for files in /home/humbulani/airflow/dags
+[2023-06-26T14:09:52.292+0200] {manager.py:729} INFO - There are 2 files in /home/humbulani/airflow/dags
+[2023-06-26T14:10:12.391+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.36s           2023-06-26T12:10:08
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.91s           2023-06-26T12:09:55
+================================================================================
+[2023-06-26T14:10:42.451+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.46s           2023-06-26T12:10:39
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.59s           2023-06-26T12:10:27
+================================================================================
+[2023-06-26T14:11:12.769+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.30s           2023-06-26T12:11:09
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.57s           2023-06-26T12:10:57
+================================================================================
+[2023-06-26T14:11:42.960+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.30s           2023-06-26T12:11:40
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.76s           2023-06-26T12:11:28
+================================================================================
+[2023-06-26T14:12:13.636+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.48s           2023-06-26T12:12:10
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.57s           2023-06-26T12:11:59
+================================================================================
+[2023-06-26T14:12:43.948+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.29s           2023-06-26T12:12:41
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.70s           2023-06-26T12:12:30
+================================================================================
+[2023-06-26T14:13:14.339+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.28s           2023-06-26T12:13:11
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.98s           2023-06-26T12:13:01
+================================================================================
+[2023-06-26T14:13:42.883+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.34s           2023-06-26T12:13:42
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.63s           2023-06-26T12:13:32
+================================================================================
+[2023-06-26T14:14:13.532+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.48s           2023-06-26T12:14:12
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.54s           2023-06-26T12:14:03
+================================================================================
+[2023-06-26T14:14:44.194+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.30s           2023-06-26T12:14:43
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.55s           2023-06-26T12:14:34
+================================================================================
+[2023-06-26T14:14:53.227+0200] {manager.py:726} INFO - Searching for files in /home/humbulani/airflow/dags
+[2023-06-26T14:14:53.229+0200] {manager.py:729} INFO - There are 2 files in /home/humbulani/airflow/dags
+[2023-06-26T14:15:14.329+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.34s           2023-06-26T12:15:13
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.66s           2023-06-26T12:15:04
+================================================================================
+[2023-06-26T14:15:45.177+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.40s           2023-06-26T12:15:44
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.73s           2023-06-26T12:15:36
+================================================================================
+[2023-06-26T14:16:15.372+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.43s           2023-06-26T12:16:14
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.72s           2023-06-26T12:16:07
+================================================================================
+[2023-06-26T14:16:45.394+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.48s           2023-06-26T12:16:45
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.67s           2023-06-26T12:16:38
+================================================================================
+[2023-06-26T14:17:15.495+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py    9291  0.00s             1           0  0.48s           2023-06-26T12:16:45
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.88s           2023-06-26T12:17:09
+================================================================================
+[2023-06-26T14:17:46.128+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.89s           2023-06-26T12:17:16
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.87s           2023-06-26T12:17:40
+================================================================================
+[2023-06-26T14:18:16.168+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.51s           2023-06-26T12:17:46
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.59s           2023-06-26T12:18:11
+================================================================================
+[2023-06-26T14:18:46.777+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.56s           2023-06-26T12:18:17
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.82s           2023-06-26T12:18:42
+================================================================================
+[2023-06-26T14:19:17.000+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.38s           2023-06-26T12:18:48
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.78s           2023-06-26T12:19:12
+================================================================================
+[2023-06-26T14:19:47.370+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.55s           2023-06-26T12:19:18
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.17s           2023-06-26T12:19:44
+================================================================================
+[2023-06-26T14:19:53.555+0200] {manager.py:726} INFO - Searching for files in /home/humbulani/airflow/dags
+[2023-06-26T14:19:53.557+0200] {manager.py:729} INFO - There are 2 files in /home/humbulani/airflow/dags
+[2023-06-26T14:20:17.796+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.33s           2023-06-26T12:19:49
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.66s           2023-06-26T12:20:15
+================================================================================
+[2023-06-26T14:20:48.254+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.35s           2023-06-26T12:20:20
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.59s           2023-06-26T12:20:46
+================================================================================
+[2023-06-26T14:21:18.334+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.25s           2023-06-26T12:20:50
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.73s           2023-06-26T12:21:17
+================================================================================
+[2023-06-26T14:21:48.712+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.55s           2023-06-26T12:21:21
+/home/humbulani/airflow/dags/new2_dag.py   9446  1.01s             1           0  0.73s           2023-06-26T12:21:17
+================================================================================
+[2023-06-26T14:22:18.990+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.25s           2023-06-26T12:21:51
+/home/humbulani/airflow/dags/new2_dag.py   9465  0.00s             1           0  1.17s           2023-06-26T12:21:48
+================================================================================
+[2023-06-26T14:22:49.165+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.33s           2023-06-26T12:22:22
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.89s           2023-06-26T12:22:19
+================================================================================
+[2023-06-26T14:23:19.609+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.28s           2023-06-26T12:22:52
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.78s           2023-06-26T12:22:50
+================================================================================
+[2023-06-26T14:23:50.636+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.73s           2023-06-26T12:23:23
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.34s           2023-06-26T12:23:22
+================================================================================
+[2023-06-26T14:24:21.390+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.50s           2023-06-26T12:23:54
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.72s           2023-06-26T12:23:54
+================================================================================
+[2023-06-26T14:24:52.196+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.69s           2023-06-26T12:24:25
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.69s           2023-06-26T12:24:25
+================================================================================
+[2023-06-26T14:24:54.204+0200] {manager.py:726} INFO - Searching for files in /home/humbulani/airflow/dags
+[2023-06-26T14:24:54.205+0200] {manager.py:729} INFO - There are 2 files in /home/humbulani/airflow/dags
+[2023-06-26T14:25:22.345+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.77s           2023-06-26T12:24:55
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  2.06s           2023-06-26T12:24:57
+================================================================================
+[2023-06-26T14:25:53.187+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.70s           2023-06-26T12:25:27
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.87s           2023-06-26T12:25:28
+================================================================================
+[2023-06-26T14:26:23.401+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.66s           2023-06-26T12:25:57
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.95s           2023-06-26T12:26:00
+================================================================================
+[2023-06-26T14:26:53.697+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.60s           2023-06-26T12:26:28
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.84s           2023-06-26T12:26:31
+================================================================================
+[2023-06-26T14:27:23.812+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.60s           2023-06-26T12:26:59
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.86s           2023-06-26T12:27:02
+================================================================================
+[2023-06-26T14:27:53.919+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.98s           2023-06-26T12:27:30
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.89s           2023-06-26T12:27:33
+================================================================================
+[2023-06-26T14:28:24.214+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.77s           2023-06-26T12:28:01
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.84s           2023-06-26T12:28:04
+================================================================================
+[2023-06-26T14:28:54.470+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.55s           2023-06-26T12:28:32
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.67s           2023-06-26T12:28:34
+================================================================================
+[2023-06-26T14:29:24.604+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.46s           2023-06-26T12:29:02
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.94s           2023-06-26T12:29:05
+================================================================================
+[2023-06-26T14:29:54.632+0200] {manager.py:726} INFO - Searching for files in /home/humbulani/airflow/dags
+[2023-06-26T14:29:54.634+0200] {manager.py:729} INFO - There are 2 files in /home/humbulani/airflow/dags
+[2023-06-26T14:29:54.644+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.56s           2023-06-26T12:29:33
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.77s           2023-06-26T12:29:36
+================================================================================
+[2023-06-26T14:30:24.947+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.59s           2023-06-26T12:30:04
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  1.00s           2023-06-26T12:30:07
+================================================================================
+[2023-06-26T14:30:55.069+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.62s           2023-06-26T12:30:34
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.57s           2023-06-26T12:30:38
+================================================================================
+[2023-06-26T14:31:25.343+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.58s           2023-06-26T12:31:05
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.60s           2023-06-26T12:31:09
+================================================================================
+[2023-06-26T14:31:55.871+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.50s           2023-06-26T12:31:36
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.92s           2023-06-26T12:31:40
+================================================================================
+[2023-06-26T14:32:25.897+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.51s           2023-06-26T12:32:06
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.85s           2023-06-26T12:32:11
+================================================================================
+[2023-06-26T14:32:55.953+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.30s           2023-06-26T12:32:37
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.65s           2023-06-26T12:32:41
+================================================================================
+[2023-06-26T14:33:26.701+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.29s           2023-06-26T12:33:07
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.49s           2023-06-26T12:33:12
+================================================================================
+[2023-06-26T14:33:57.048+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.24s           2023-06-26T12:33:37
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.59s           2023-06-26T12:33:43
+================================================================================
+[2023-06-26T14:34:27.386+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.23s           2023-06-26T12:34:08
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.58s           2023-06-26T12:34:14
+================================================================================
+[2023-06-26T14:34:54.735+0200] {manager.py:726} INFO - Searching for files in /home/humbulani/airflow/dags
+[2023-06-26T14:34:54.740+0200] {manager.py:729} INFO - There are 2 files in /home/humbulani/airflow/dags
+[2023-06-26T14:34:57.782+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.25s           2023-06-26T12:34:38
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.57s           2023-06-26T12:34:45
+================================================================================
+[2023-06-26T14:35:28.096+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.20s           2023-06-26T12:35:09
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.56s           2023-06-26T12:35:16
+================================================================================
+[2023-06-26T14:35:58.472+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.26s           2023-06-26T12:35:39
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.55s           2023-06-26T12:35:46
+================================================================================
+[2023-06-26T14:36:28.843+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.25s           2023-06-26T12:36:09
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.47s           2023-06-26T12:36:18
+================================================================================
+[2023-06-26T14:36:59.274+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.31s           2023-06-26T12:36:40
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.49s           2023-06-26T12:36:48
+================================================================================
+[2023-06-26T14:37:29.631+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.24s           2023-06-26T12:37:10
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.57s           2023-06-26T12:37:19
+================================================================================
+[2023-06-26T14:37:59.968+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.22s           2023-06-26T12:37:40
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.61s           2023-06-26T12:37:50
+================================================================================
+[2023-06-26T14:38:30.310+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.21s           2023-06-26T12:38:11
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.55s           2023-06-26T12:38:21
+================================================================================
+[2023-06-26T14:39:00.673+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.22s           2023-06-26T12:38:41
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.49s           2023-06-26T12:38:52
+================================================================================
+[2023-06-26T14:39:31.000+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.21s           2023-06-26T12:39:11
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.46s           2023-06-26T12:39:23
+================================================================================
+[2023-06-26T14:39:54.862+0200] {manager.py:726} INFO - Searching for files in /home/humbulani/airflow/dags
+[2023-06-26T14:39:54.864+0200] {manager.py:729} INFO - There are 2 files in /home/humbulani/airflow/dags
+[2023-06-26T14:40:01.424+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.29s           2023-06-26T12:39:42
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.50s           2023-06-26T12:39:53
+================================================================================
+[2023-06-26T14:40:31.864+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.31s           2023-06-26T12:40:12
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.55s           2023-06-26T12:40:25
+================================================================================
+[2023-06-26T14:41:01.915+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.30s           2023-06-26T12:40:43
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.67s           2023-06-26T12:40:55
+================================================================================
+[2023-06-26T14:41:31.960+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.24s           2023-06-26T12:41:13
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.54s           2023-06-26T12:41:26
+================================================================================
+[2023-06-26T14:42:01.965+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.20s           2023-06-26T12:41:43
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.55s           2023-06-26T12:41:57
+================================================================================
+[2023-06-26T14:42:32.342+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.27s           2023-06-26T12:42:14
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.59s           2023-06-26T12:42:28
+================================================================================
+[2023-06-26T14:43:02.680+0200] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/humbulani/airflow/dags/ssh_dag.py                            1           0  0.22s           2023-06-26T12:42:44
+/home/humbulani/airflow/dags/new2_dag.py                           1           0  0.61s           2023-06-26T12:42:59
+================================================================================
+[2023-06-26T14:43:20.147+0200] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
